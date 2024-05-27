@@ -19,7 +19,9 @@ Chemistry 69
 
 
 int main() {
-    cout << "Subject\t\tMarks\nMathematics\t90\nComputer\t77\nChemistry\t69";
+    cout << stew(12)<<"Subject"<<"Marks"<<endl<<setw(12)<<"Mathematics"<<"90"<<endl<<setw(12)<<
+    "Computer"<<"97"<<endl<setw(12)<<"chemistry" <<"60";
+
     return 0;
 }
 */
