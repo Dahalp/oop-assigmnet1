@@ -1,11 +1,11 @@
 #include <iostream>
-
+#include<iomanip>
 using namespace std;
 //Write a program to print HELLO WORLD on screen.
 /*
 int main()
 {
-    cout << "Hello world!" << endl;
+    cout << "HELLO WORLD" << endl;
     return 0;
 }
 */
@@ -17,14 +17,12 @@ Mathematics 90
 Computer 77
 Chemistry 69
 
-
 int main() {
-    
-    cout << setw(5) << "Subject" << setw(12) << "Marks" << endl;
 
-    cout << setw(5) << "Mathematics" << setw(5) << 90 << endl;
-    cout << setw(5) << "Computer" << setw(8) << 97 << endl;
-    cout << setw(5) << "Chemistry" << setw(7) << 60 << endl; 
+    cout << setw(5) << "Subject" << setw(12) << "Marks" << endl
+    << setw(5) << "Mathematics" << setw(5) << 90 << endl
+     << setw(5) << "Computer" << setw(8) << 97 << endl
+    << setw(5) << "Chemistry" << setw(7) << 60 << endl;
 
     return 0;
 }
@@ -42,8 +40,6 @@ int main(){
 return 0;
 }
 */
-
-
 /*Write a program which accept temperature in Fahrenheit and print it in
 centigrade.*/
 /*
@@ -179,7 +175,6 @@ int main() {
 
 return 0;
 }
-
 */
 
 /* .Write a program which accepts amount as integer and display total number
@@ -242,8 +237,8 @@ return 0;
 /* Write a program which accepts days as integer and display total number of
 years, months and days in it. For example: If user input as 856 days the
 output should be 2 years 4 months 6 days. */
-
 /*
+
 int main(){
 int days,years,months,daysLeft,remainingDays;
 
