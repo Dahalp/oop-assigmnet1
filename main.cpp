@@ -19,8 +19,12 @@ Chemistry 69
 
 
 int main() {
-    cout << stew(12)<<"Subject"<<"Marks"<<endl<<setw(12)<<"Mathematics"<<"90"<<endl<<setw(12)<<
-    "Computer"<<"97"<<endl<setw(12)<<"chemistry" <<"60";
+    
+    cout << setw(5) << "Subject" << setw(12) << "Marks" << endl;
+
+    cout << setw(5) << "Mathematics" << setw(5) << 90 << endl;
+    cout << setw(5) << "Computer" << setw(8) << 97 << endl;
+    cout << setw(5) << "Chemistry" << setw(7) << 60 << endl; 
 
     return 0;
 }
